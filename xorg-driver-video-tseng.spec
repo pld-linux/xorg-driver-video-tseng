@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Tseng Labs video adapters
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych Tseng Labs
 Name:		xorg-driver-video-tseng
-Version:	1.2.3
-Release:	4
+Version:	1.2.4
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-tseng-%{version}.tar.bz2
-# Source0-md5:	79f63999c88477801ae54dc486272ad6
+# Source0-md5:	fa441774f8bf516a5c6331d64231a39d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
