@@ -40,8 +40,8 @@ Sterownik obrazu X.org dla kart graficznych Tseng Labs.
 
 %prep
 %setup -q -n xf86-video-tseng-%{version}
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 %{__libtoolize}
